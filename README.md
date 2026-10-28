@@ -1,9 +1,9 @@
 # ARNGREN 後端檔案
 
 ## 建立虛擬環境
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned<br>
+python -m venv venv<br>
+.\venv\Scripts\Activate.ps1<br>
 
 ## 下載必要套件
 python -m pip install -r requirements.txt<br>
