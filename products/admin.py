@@ -90,6 +90,8 @@ class ProductAdmin(admin.ModelAdmin):
         "category",
         "status",
     )
+    def has_delete_permission(self, request, obj=None):
+        return super().has_delete_permission(request, obj)
 
 @admin.register(Favorite)
 class FavoriteAdmin(admin.ModelAdmin):
